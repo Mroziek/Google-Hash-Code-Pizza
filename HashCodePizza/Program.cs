@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HashCodePizza
 {
@@ -23,7 +20,7 @@ namespace HashCodePizza
         static void Main(string[] args)
         {
             List<string> output = new List<string>();
-            ReadFile(@"c:/example.in");
+            ReadFile(@"c:/medium.in");
 
             dimensionsList = new List<Rectangle>();
             GeneratePossibleRectangleDimensions(minIngredient, maxIngredient);
@@ -52,7 +49,7 @@ namespace HashCodePizza
             {
                 tw.WriteLine(output.Count);
                 foreach (String s in output)
-                     tw.WriteLine(s);
+                    tw.WriteLine(s);
             }
         }
 
@@ -70,7 +67,6 @@ namespace HashCodePizza
                     }
                 }
             }
-
             return count;
         }
 
@@ -189,14 +185,6 @@ namespace HashCodePizza
                 }
             }
         }
-
-
-
-
-
-
-
-
 
     }
 }
