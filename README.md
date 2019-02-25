@@ -33,4 +33,4 @@
 </tr>
 </tbody>
 </table>
-<p>*49348 score was achieved after randomizing slicing order - but I prefed to upload a version which is easier to understand.</p>
+<p>*49348 score was achieved after randomizing slicing order - but I prefer to upload a version which is easier to understand.</p>
