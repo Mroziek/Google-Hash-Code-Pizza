@@ -29,7 +29,7 @@
 </tr>
 <tr>
 <td><strong>TOTAL</strong></td>
-<td>933090</td>
+<td>933270</td>
 </tr>
 </tbody>
 </table>
